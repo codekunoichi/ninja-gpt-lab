@@ -1,0 +1,2 @@
+PROGRAM FIT: class size, S:F ratio, required first-year courses, co-op/research/clinic/studio/fieldwork, outcomes (job/grad), accreditation/licensure.
+CAMPUS LIFE: housing/dining basics, clubs aligned to interests, first-year retention, health/mental health/disability services, safety/transit links.

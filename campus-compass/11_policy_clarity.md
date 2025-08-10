@@ -1,0 +1,2 @@
+ED (binding; one school/round). EA (non-binding). REA/SCEA (non-binding; often restricts other early apps to private U.S. colleges—check the exact policy).
+Always verify plan names (ED I/ED II, Priority, Rolling) and last test-date acceptance by plan on the official page.
