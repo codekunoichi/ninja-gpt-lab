@@ -36,3 +36,7 @@ L) CAMPUS LIFE & SUPPORT
 
 M) POST-ADMISSION
 | School | Deposit Deadline | Housing App Deadline | Aid Appeal Process | Admitted Events | Orientation/Registration | Source (Accessed) | Status |
+
+
+N) COSTS & COA
+| School | Tuition & Fees (annual) | In-State vs Out-of-State | Total COA (annual) | Source (Accessed) | Status |
