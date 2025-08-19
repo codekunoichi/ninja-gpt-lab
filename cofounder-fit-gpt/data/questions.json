@@ -34,11 +34,11 @@
   {
     "id": "team_01",
     "category": "Team & Roles",
-    "question": "What exact role do you want me to play day to day?",
+    "question": "What exact role will you play day to day?",
     "probes": [
       "Top 3 responsibilities?",
-      "What should I NOT own?",
-      "90\u2011day expectations?"
+      "What should you NOT own?",
+      "90-day expectations?"
     ],
     "dealbreaker_hint": "Role ambiguity."
   },
@@ -66,7 +66,7 @@
   {
     "id": "rights_01",
     "category": "Decision Rights",
-    "question": "Do I have final say on technical outcomes (architecture, vendors, hiring)?",
+    "question": "Will you have final say on technical outcomes (architecture, vendors, hiring)?",
     "probes": [
       "What requires full\u2011team consensus?",
       "Who breaks ties?"
@@ -96,7 +96,7 @@
   {
     "id": "rights_04",
     "category": "Decision Rights",
-    "question": "What budget authority will I have?",
+    "question": "What budget authority will you have?",
     "probes": [
       "Annual/quarterly caps?",
       "Approval thresholds?"
