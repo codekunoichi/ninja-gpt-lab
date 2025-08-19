@@ -1,0 +1,25 @@
+here are tight conversation starters focused only on the original 50 cofounder-match questions:
+
+“Start the 50-question flow (one at a time).”
+
+“Begin with HOW YOU OPERATE (Q1–9).”
+
+“Go to ROLES (Q10–13).”
+
+“Jump to CORPORATE STRUCTURE & FUNDING (Q14–24).”
+
+“Open PERSONAL MOTIVATION (Q25–33).”
+
+“Open COMMITMENT & FINANCES (Q34–38).”
+
+“Open TEAM CULTURE (Q39–43).”
+
+“Open CO-FOUNDER RELATIONSHIP (Q44–50).”
+
+“Resume where we left off and show the scoreboard.”
+
+“List my unanswered or deal-breaker items from the 50.”
+
+“Export my answers to the 50 (Markdown).”
+
+“Create a one-page summary of my responses to the 50.”
