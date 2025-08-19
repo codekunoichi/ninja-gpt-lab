@@ -1,0 +1,613 @@
+[
+  {
+    "id": "mission_01",
+    "category": "Mission & Values",
+    "question": "Why this problem and why now\u2014for you personally?",
+    "probes": [
+      "What lived experience makes this urgent?",
+      "3-year mission statement?",
+      "What would make you walk away?"
+    ],
+    "dealbreaker_hint": "No durable personal why; misaligned values."
+  },
+  {
+    "id": "mission_02",
+    "category": "Mission & Values",
+    "question": "What change for patients/clinicians would make this unquestionably worth 3\u20135 years?",
+    "probes": [
+      "Specific outcome?",
+      "How will we measure it?",
+      "Earliest proof of progress?"
+    ],
+    "dealbreaker_hint": "No tangible user outcome."
+  },
+  {
+    "id": "mission_03",
+    "category": "Mission & Values",
+    "question": "What values are non\u2011negotiable in the company we build?",
+    "probes": [
+      "Examples of past tradeoffs?",
+      "Who enforces values under pressure?"
+    ],
+    "dealbreaker_hint": "Values only on posters; no enforcement."
+  },
+  {
+    "id": "team_01",
+    "category": "Team & Roles",
+    "question": "What exact role do you want me to play day to day?",
+    "probes": [
+      "Top 3 responsibilities?",
+      "What should I NOT own?",
+      "90\u2011day expectations?"
+    ],
+    "dealbreaker_hint": "Role ambiguity."
+  },
+  {
+    "id": "team_02",
+    "category": "Team & Roles",
+    "question": "Who does what among founders (CEO/CFO/CTO) in practice?",
+    "probes": [
+      "Write a RACI for product, tech, sales.",
+      "Past conflict examples?"
+    ],
+    "dealbreaker_hint": "Overlapping ownership; no tie\u2011breaker."
+  },
+  {
+    "id": "team_03",
+    "category": "Team & Roles",
+    "question": "First five hires\u2014who and when?",
+    "probes": [
+      "Comp bands?",
+      "Recruiting channels (Stanford, network)?",
+      "Contractors vs FTE?"
+    ],
+    "dealbreaker_hint": "No plan to hire needed depth."
+  },
+  {
+    "id": "rights_01",
+    "category": "Decision Rights",
+    "question": "Do I have final say on technical outcomes (architecture, vendors, hiring)?",
+    "probes": [
+      "What requires full\u2011team consensus?",
+      "Who breaks ties?"
+    ],
+    "dealbreaker_hint": "No clear tech authority."
+  },
+  {
+    "id": "rights_02",
+    "category": "Decision Rights",
+    "question": "What is the written decision charter for product vs. tech disagreements?",
+    "probes": [
+      "Real example?",
+      "Escalation path?"
+    ],
+    "dealbreaker_hint": "Handshake only; no written charter."
+  },
+  {
+    "id": "rights_03",
+    "category": "Decision Rights",
+    "question": "What metrics gate a production launch vs. rollback?",
+    "probes": [
+      "Who signs off?",
+      "Change window policy?"
+    ],
+    "dealbreaker_hint": "Ship at any cost mentality."
+  },
+  {
+    "id": "rights_04",
+    "category": "Decision Rights",
+    "question": "What budget authority will I have?",
+    "probes": [
+      "Annual/quarterly caps?",
+      "Approval thresholds?"
+    ],
+    "dealbreaker_hint": "Zero discretionary spend."
+  },
+  {
+    "id": "cust_01",
+    "category": "Customers & Problem",
+    "question": "Who are the first design partners by name and segment?",
+    "probes": [
+      "POC contacts?",
+      "Decision maker?",
+      "Why they said yes?"
+    ],
+    "dealbreaker_hint": "No committed partners."
+  },
+  {
+    "id": "cust_02",
+    "category": "Customers & Problem",
+    "question": "Which single workflow are we fixing first?",
+    "probes": [
+      "Baseline metric?",
+      "What pain happens weekly?"
+    ],
+    "dealbreaker_hint": "Boiling the ocean."
+  },
+  {
+    "id": "cust_03",
+    "category": "Customers & Problem",
+    "question": "What do target users do today and why is that failing?",
+    "probes": [
+      "Screenshots or steps?",
+      "Competing vendors?"
+    ],
+    "dealbreaker_hint": "Unknown status quo."
+  },
+  {
+    "id": "cust_04",
+    "category": "Customers & Problem",
+    "question": "What legal/procurement hurdles will block pilots?",
+    "probes": [
+      "BAA?",
+      "Security questionnaire timeline?"
+    ],
+    "dealbreaker_hint": "No path through compliance."
+  },
+  {
+    "id": "cust_05",
+    "category": "Customers & Problem",
+    "question": "What would make a pilot convert to paid within 90 days?",
+    "probes": [
+      "Contract template?",
+      "Price anchor?"
+    ],
+    "dealbreaker_hint": "Undefined conversion path."
+  },
+  {
+    "id": "data_01",
+    "category": "Data & Access",
+    "question": "What data will we access in month one?",
+    "probes": [
+      "Claims X12 types?",
+      "835/837 volumes?",
+      "Auth notes?"
+    ],
+    "dealbreaker_hint": "No data access."
+  },
+  {
+    "id": "data_02",
+    "category": "Data & Access",
+    "question": "Do we have signed BAAs/DTAs enabling model training and logging on PHI?",
+    "probes": [
+      "Who is covered entity?",
+      "Where stored?"
+    ],
+    "dealbreaker_hint": "No BAA/unclear rights."
+  },
+  {
+    "id": "data_03",
+    "category": "Data & Access",
+    "question": "Data quality & labeling plan?",
+    "probes": [
+      "Ground\u2011truth source?",
+      "Who labels?",
+      "Feedback loop?"
+    ],
+    "dealbreaker_hint": "No labeling budget/plan."
+  },
+  {
+    "id": "data_04",
+    "category": "Data & Access",
+    "question": "Retention and deletion policy for PHI?",
+    "probes": [
+      "How long?",
+      "Who can request purge?"
+    ],
+    "dealbreaker_hint": "Risky data retention."
+  },
+  {
+    "id": "data_05",
+    "category": "Data & Access",
+    "question": "What payers/codes will we prioritize?",
+    "probes": [
+      "Top denial reasons?",
+      "Which specialties?"
+    ],
+    "dealbreaker_hint": "No focus on payer lines."
+  },
+  {
+    "id": "prod_01",
+    "category": "Product & MVP",
+    "question": "Define the MVP as an **action loop**.",
+    "probes": [
+      "Trigger \u2192 Action \u2192 Evidence \u2192 Outcome?",
+      "User segment?"
+    ],
+    "dealbreaker_hint": "MVP is a platform or dashboard only."
+  },
+  {
+    "id": "prod_02",
+    "category": "Product & MVP",
+    "question": "Success metric that ends debate?",
+    "probes": [
+      "Numeric target?",
+      "Timeframe?"
+    ],
+    "dealbreaker_hint": "No single metric."
+  },
+  {
+    "id": "prod_03",
+    "category": "Product & MVP",
+    "question": "What is explicitly **out of scope** for v1?",
+    "probes": [
+      "Deferred features list?",
+      "Why?"
+    ],
+    "dealbreaker_hint": "Scope creep risk."
+  },
+  {
+    "id": "prod_04",
+    "category": "Product & MVP",
+    "question": "What integration depth is required for MVP?",
+    "probes": [
+      "Read\u2011only vs write\u2011back?",
+      "EDI or FHIR?"
+    ],
+    "dealbreaker_hint": "Unbuildable integrations."
+  },
+  {
+    "id": "prod_05",
+    "category": "Product & MVP",
+    "question": "Who will run the pilot day to day?",
+    "probes": [
+      "Internal champion?",
+      "Support hours?"
+    ],
+    "dealbreaker_hint": "No owner for pilot."
+  },
+  {
+    "id": "ai_01",
+    "category": "AI Strategy",
+    "question": "Build vs. buy for model layers?",
+    "probes": [
+      "Which providers in\u2011bounds?",
+      "Fallback model?"
+    ],
+    "dealbreaker_hint": "Vendor lock\u2011in without plan."
+  },
+  {
+    "id": "ai_02",
+    "category": "AI Strategy",
+    "question": "Evaluation suite & thresholds (accuracy, hallucination, safety)?",
+    "probes": [
+      "Sample eval cases?",
+      "Who owns evals?"
+    ],
+    "dealbreaker_hint": "No evals = unsafe/low trust."
+  },
+  {
+    "id": "ai_03",
+    "category": "AI Strategy",
+    "question": "Safety/guardrails for PHI and actions?",
+    "probes": [
+      "PII redaction?",
+      "Rate limits?",
+      "Human oversight?"
+    ],
+    "dealbreaker_hint": "Unsafe by design."
+  },
+  {
+    "id": "ai_04",
+    "category": "AI Strategy",
+    "question": "Telemetry: What will we log to improve models?",
+    "probes": [
+      "PHI in logs?",
+      "Retention?"
+    ],
+    "dealbreaker_hint": "No learning loop."
+  },
+  {
+    "id": "ai_05",
+    "category": "AI Strategy",
+    "question": "Cost model for inference + storage per claim?",
+    "probes": [
+      "Target unit cost?",
+      "Batch vs realtime?"
+    ],
+    "dealbreaker_hint": "Unsustainable unit economics."
+  },
+  {
+    "id": "tech_01",
+    "category": "Tech & Architecture",
+    "question": "Reference architecture sketch?",
+    "probes": [
+      "Core services?",
+      "Data stores?",
+      "Eventing?"
+    ],
+    "dealbreaker_hint": "No coherent architecture."
+  },
+  {
+    "id": "tech_02",
+    "category": "Tech & Architecture",
+    "question": "SRE baseline & SLAs?",
+    "probes": [
+      "Uptime target?",
+      "Error budget?"
+    ],
+    "dealbreaker_hint": "No reliability standard."
+  },
+  {
+    "id": "tech_03",
+    "category": "Tech & Architecture",
+    "question": "Build/buy decisions for clearinghouse, EDI, vector DB, auth.",
+    "probes": [
+      "Timeline?",
+      "Migration plan?"
+    ],
+    "dealbreaker_hint": "Critical path unknown."
+  },
+  {
+    "id": "tech_04",
+    "category": "Tech & Architecture",
+    "question": "Cost guardrails & FinOps plan?",
+    "probes": [
+      "Monthly cap?",
+      "Kill switches?"
+    ],
+    "dealbreaker_hint": "Runaway spend risk."
+  },
+  {
+    "id": "tech_05",
+    "category": "Tech & Architecture",
+    "question": "Observability & auditability?",
+    "probes": [
+      "Trace IDs?",
+      "Clinician\u2011visible audit logs?"
+    ],
+    "dealbreaker_hint": "Opaque system in regulated domain."
+  },
+  {
+    "id": "sec_01",
+    "category": "Compliance & Security",
+    "question": "Hipaa baseline on Day 0?",
+    "probes": [
+      "Access controls?",
+      "Encryption at rest/in transit?"
+    ],
+    "dealbreaker_hint": "Non\u2011compliant launch."
+  },
+  {
+    "id": "sec_02",
+    "category": "Compliance & Security",
+    "question": "Path to SOC2/HITRUST and timeline?",
+    "probes": [
+      "Owner?",
+      "Budget?"
+    ],
+    "dealbreaker_hint": "Security debt accrues."
+  },
+  {
+    "id": "sec_03",
+    "category": "Compliance & Security",
+    "question": "Incident response plan?",
+    "probes": [
+      "Breach bridge?",
+      "24\u2011hour notification plan?"
+    ],
+    "dealbreaker_hint": "No IR plan."
+  },
+  {
+    "id": "sec_04",
+    "category": "Compliance & Security",
+    "question": "Vendor management & BAAs?",
+    "probes": [
+      "Which vendors sign BAAs?",
+      "Alternatives?"
+    ],
+    "dealbreaker_hint": "Leaky vendor stack."
+  },
+  {
+    "id": "gtm_01",
+    "category": "GTM & Sales",
+    "question": "ICP and first verticals?",
+    "probes": [
+      "Clinic size?",
+      "Specialties?",
+      "US regions?"
+    ],
+    "dealbreaker_hint": "Spray-and-pray GTM."
+  },
+  {
+    "id": "gtm_02",
+    "category": "GTM & Sales",
+    "question": "Pricing hypothesis and packaging?",
+    "probes": [
+      "Per provider? Per 1k claims?",
+      "Pilot pricing?"
+    ],
+    "dealbreaker_hint": "Unclear monetization."
+  },
+  {
+    "id": "gtm_03",
+    "category": "GTM & Sales",
+    "question": "Who sells the first five logos?",
+    "probes": [
+      "Founder\u2011led?",
+      "Advisors?"
+    ],
+    "dealbreaker_hint": "No owner for early sales."
+  },
+  {
+    "id": "gtm_04",
+    "category": "GTM & Sales",
+    "question": "Security & legal blockers in sales cycle?",
+    "probes": [
+      "BAA timing?",
+      "IT questionnaires?"
+    ],
+    "dealbreaker_hint": "Deals stall in procurement."
+  },
+  {
+    "id": "fund_01",
+    "category": "Funding & Runway",
+    "question": "Capital on hand and committed?",
+    "probes": [
+      "Bank balance?",
+      "Soft commits?"
+    ],
+    "dealbreaker_hint": "No runway view."
+  },
+  {
+    "id": "fund_02",
+    "category": "Funding & Runway",
+    "question": "Timing and amount of next raise?",
+    "probes": [
+      "Use of funds?",
+      "Milestones to raise?"
+    ],
+    "dealbreaker_hint": "Hand\u2011wavy raise plan."
+  },
+  {
+    "id": "fund_03",
+    "category": "Funding & Runway",
+    "question": "Monthly burn forecast through next 12 months?",
+    "probes": [
+      "Headcount plan?",
+      "Cloud costs?"
+    ],
+    "dealbreaker_hint": "Unknown burn."
+  },
+  {
+    "id": "fund_04",
+    "category": "Funding & Runway",
+    "question": "Founder salary & benefits triggers?",
+    "probes": [
+      "At raise or ARR?",
+      "Health insurance from Day 1?"
+    ],
+    "dealbreaker_hint": "No benefits/trigger policy."
+  },
+  {
+    "id": "fund_05",
+    "category": "Funding & Runway",
+    "question": "Design partner funding or paid pilots?",
+    "probes": [
+      "Contract terms?",
+      "Conversion rate?"
+    ],
+    "dealbreaker_hint": "Free pilots with no path to paid."
+  },
+  {
+    "id": "eq_01",
+    "category": "Equity & Compensation",
+    "question": "Proposed equity split and vesting?",
+    "probes": [
+      "4\u2011yr vest, 1\u2011yr cliff?",
+      "Reverse vesting?"
+    ],
+    "dealbreaker_hint": "Unfair or vague split."
+  },
+  {
+    "id": "eq_02",
+    "category": "Equity & Compensation",
+    "question": "Option pool size and refresh plan?",
+    "probes": [
+      "Pre/post raise %?",
+      "Hiring impact?"
+    ],
+    "dealbreaker_hint": "No room for team."
+  },
+  {
+    "id": "eq_03",
+    "category": "Equity & Compensation",
+    "question": "Founder pro\u2011rata rights?",
+    "probes": [
+      "In which rounds?",
+      "Documentation?"
+    ],
+    "dealbreaker_hint": "Future dilution risk."
+  },
+  {
+    "id": "eq_04",
+    "category": "Equity & Compensation",
+    "question": "Cash comp during pre\u2011seed/seed?",
+    "probes": [
+      "Minimum stipend?",
+      "Adjustments post\u2011raise?"
+    ],
+    "dealbreaker_hint": "Unsustainable for founders."
+  },
+  {
+    "id": "gov_01",
+    "category": "Governance & Legal",
+    "question": "Board/advisors composition and cadence?",
+    "probes": [
+      "Two external advisors (finance + ML)?",
+      "Meeting rhythm?"
+    ],
+    "dealbreaker_hint": "No adult supervision."
+  },
+  {
+    "id": "gov_02",
+    "category": "Governance & Legal",
+    "question": "IP assignment & inventions policy (incl. students/OSS)?",
+    "probes": [
+      "Publication rights?",
+      "Contributor agreements?"
+    ],
+    "dealbreaker_hint": "IP ambiguity."
+  },
+  {
+    "id": "gov_03",
+    "category": "Governance & Legal",
+    "question": "Information rights and reporting cadence?",
+    "probes": [
+      "Monthly metrics pack?",
+      "Budget vs actuals?"
+    ],
+    "dealbreaker_hint": "No transparency."
+  },
+  {
+    "id": "cult_01",
+    "category": "Culture & Ways of Working",
+    "question": "Working norms: writing vs meetings; release cadence; on\u2011call?",
+    "probes": [
+      "Docs tools?",
+      "Weekly ritual?"
+    ],
+    "dealbreaker_hint": "Chaos culture."
+  },
+  {
+    "id": "cult_02",
+    "category": "Culture & Ways of Working",
+    "question": "Quality bar & TDD stance?",
+    "probes": [
+      "CI/CD pipeline?",
+      "Definition of done?"
+    ],
+    "dealbreaker_hint": "Ship-now, fix-later culture."
+  },
+  {
+    "id": "cult_03",
+    "category": "Culture & Ways of Working",
+    "question": "Conflict style and feedback loops?",
+    "probes": [
+      "Example under stress?",
+      "Retros cadence?"
+    ],
+    "dealbreaker_hint": "Avoidant conflict."
+  },
+  {
+    "id": "cult_04",
+    "category": "Culture & Ways of Working",
+    "question": "Founder wellness & boundaries?",
+    "probes": [
+      "Travel expectations?",
+      "Time off norms?"
+    ],
+    "dealbreaker_hint": "Burnout risk."
+  },
+  {
+    "id": "exit_01",
+    "category": "Exit & Failure Planning",
+    "question": "If no seed in 9\u201312 months, what is Plan B?",
+    "probes": [
+      "Scope cut?",
+      "Hiring freeze?",
+      "Runway extension options?"
+    ],
+    "dealbreaker_hint": "No contingency."
+  }
+]
